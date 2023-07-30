@@ -81,5 +81,7 @@ mysqli_close($connect);
         <br>
         <input type="submit" name="Login" value="Login">
     </form>
+    <br>
+    <p>Belum punya akun? Silakan <a href="register.php">daftar disini</a>.</p>
 </body>
 </html>
