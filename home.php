@@ -108,7 +108,7 @@
                     $shortened_url = "http://your_web_domain.com/$short_code"; // Replace 'your_web_domain.com' with your actual domain
                     echo "<div class='shortened-url'>";
                     echo "<h2>Shortened URL:</h2>";
-                    echo "<p>Short URL: <a href='$shortened_url'>$shortened_url</a></p>";
+                    echo "<p>Short URL: <a href='$original_url'><your_web_domain>$shortened_url</a></p>";
                     echo "<ul><li>Original URL: <a href='$original_url'>$original_url</a></li>";
                     echo "<li>Visits: 0</li></ul>"; // Visits initialized to 0
                     echo "</div>";
